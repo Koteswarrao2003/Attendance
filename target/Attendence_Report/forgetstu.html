@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Acharya Nagarjuna University </title>
+      <link rel="icon" href="logo.png">
+<style>
+body {
+    background: #d7dbdd;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 10px 30px;
+}
+.navbar img {
+    height: 100px;
+    width: 100px;
+}
+h1 {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+}
+.navbar .login-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar input[type="text"], 
+.navbar input[type="password"] {
+    border-radius: 7px;
+    padding: 7px;
+    font-size: 16px;
+    width: 150px;
+}
+.navbar input[type="submit"] {
+    width: 150px;
+    height: 35px;
+    background: #1372bd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.navbar input[type="submit"]:hover {
+    background: #1a31dc;
+}
+
+.main {
+    background: white;
+    width: 50%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.main input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border-radius: 7px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.main input[type="submit"] {
+    width: 150px;
+    height: 35px;
+    background: #1372bd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.main input[type="submit"]:hover {
+    background: #1a31dc;
+}
+.footer{
+      background-color: white;
+      color: black;
+      padding-top: 5px;
+      margin-top: 15%;
+      text-align: center;
+      padding-bottom:5px ;
+      justify-content: center;
+}
+.f1{
+      font-size: 18px;
+}
+.f2{
+      font-size: 15px;
+      padding-top: 4px;
+}
+</style>
+</head>
+<body>
+
+
+<nav class="navbar">
+    <img alt="logo" src="logo.png">
+    <h1>Acharya Nagarjuna University</h1>
+    <div class="login-section">
+        <input type="text" name="id" placeholder="User-ID">
+        <input type="password" name="password" placeholder="Password">
+        
+        <form action="stulogin.html">
+            <input type="submit" value="Login">
+        </form>
+        
+    </div>
+</nav>
+
+
+<div class="main">
+    <h2>Find Your Account</h2>
+    <p>Please enter your Register-ID to search for your account.</p>
+    
+    <form action="search_account.html" method="POST">
+        <input type="text" name="rid" placeholder="Register-ID">
+        <br>
+        <input type="submit" value="Search">
+    </form>
+</div>
+<div class="footer">
+      <p class="f1">2025 Acharya Nagarjuna University. All Rights Reserved.</p>
+      <p class="f2">Contact: support@anu.edu | Phone: +91 1234567890</p>
+</div>
+</body>
+</html>

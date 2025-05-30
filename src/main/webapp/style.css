@@ -1,0 +1,124 @@
+*{
+      margin: 0;
+      padding: 0;
+}
+.navbar{
+      display: flex;
+      flex-direction: row;
+      height: 150px;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      width: 100%;
+      background-color: #082532;
+}
+.logo{
+      height: 80px;
+      width: 70px;
+      padding-left: 50px;
+      
+}
+.nav-right{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+}
+.nav-left{
+      justify-items: center;
+      align-items: center;
+      align-content: center;
+}
+.choose{
+      margin-right: 50px;
+      width: 130px;
+      padding-left: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      font-size: 16px;
+      margin-top: 20px;
+      cursor: pointer;
+      border: 2px solid transparent;
+      border-radius: 10px;
+      
+}
+.anuu{
+      padding-right: 200px;
+      color:#fff;
+      font-size: 45px;
+      font-weight: 600;
+      padding-bottom: 10px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sel{
+      cursor: pointer;
+}
+.body-image{
+      height: 380px;
+      width: 520px;
+      padding-top: 220px;
+      padding-right: 74.68px;
+      border-radius: 20px;
+}
+.lon{
+      padding-right: 8px;
+      padding-top: 12px;
+      cursor: pointer;
+      color: #fff;
+      font-size: 18px;
+}
+.lone{
+      padding-right: 8px;
+      padding-top: 12px;
+      cursor: pointer;
+      color: #fff;
+      font-size: 18px;
+      padding-left: 150px;
+}
+.lon:hover{
+      text-decoration: underline;
+      color: rgb(198, 208, 6);
+}
+.boo{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+}
+.first{
+      font-size: 60px;
+      padding-bottom: 15px;
+      padding-top: 50px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.two{
+      font-size: 30px;
+      padding-bottom: 15px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.three{
+      font-size: 20px;
+      width: 800px;
+      font-family: cursive;
+}
+.bo-left{
+      padding-left: 25px;
+      padding-top: 150px;
+}
+.footer{
+      background-color: #03151e;
+      color: #fff;
+      padding-top: 35px;
+      margin-top: 58px;
+      text-align: center;
+      padding-bottom:10px ;
+      justify-content: center;
+}
+.f1{
+      font-size: 18px;
+}
+.f2{
+      font-size: 15px;
+      padding-top: 4px;
+}
+option{
+	cursor: pointer;
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Acharya Nagarjuna University </title>
+<link rel="icon" href="logo.png">
+<style type="text/css">
+body {
+        background: #d7dbdd;
+        margin: 0;
+        padding: 0;
+        
+    }
+    .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 10px 30px;
+}
+.navbar img {
+    height: 100px;
+    width: 100px;
+}
+h1 {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+}
+h1:hover{
+text-decoration: underline;
+}
+
+.navbar input[type="submit"] {
+    width: 150px;
+    height: 35px;
+    background: #1372bd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.navbar input[type="submit"]:hover {
+    background: #1a31dc;
+}
+    
+    .attendance {
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    align-items: center;
+    width: fit-content; /* Adjust width to content */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* optional nice shadow */
+    gap: 20px;
+}
+
+.attendance form {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+select, input[type="date"] {
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.attendance input[type="submit"] {
+    width: 150px;
+    height: 35px;
+    background: #37bd13;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.attendance input[type="submit"]:hover {
+    background: #1adc1a;
+}
+
+	
+	.footer {
+    background-color: white;
+    color: black;
+    padding: 10px 0;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+	}
+</style>
+</head>
+<body>
+<nav>
+    <div class="navbar">
+        <img alt="University Logo" src="logo.png">
+        <h1>Acharya Nagarjuna University</h1>
+        <form action="index.html">
+            <input type="submit" value="Home">
+        </form>
+    </div>
+</nav>
+
+<div class="attendance">
+	<h2>Attendance</h2>
+	<form action="StudentAttendanceServlet" method="post">
+	<select name="edu" required>
+	    <option value="">Education</option>
+	    <option value="SSC">SSC</option>
+	    <option value="Inter">Inter</option>
+	    <option value="Bsc">B.Sc</option>
+	    <option value="B.Tech">B.Tech</option>
+	    <option value="MCA">MCA</option>
+	    <option value="MBA">MBA</option>
+	    <option value="M.Tech">M.Tech</option>
+	    <option value="M.Sc">M.Sc</option>
+	    <option value="Others">Others</option>
+	</select>
+	<input type="date" name="date">
+	
+	<input type="submit" value="Submit">
+	</form>
+</div>
+
+<div class="footer">
+      <p class="f1">2025 Acharya Nagarjuna University. All Rights Reserved.</p>
+      <p class="f2">Contact: support@anu.edu | Phone: +91 1234567890</p>
+</div>
+</body>
+</html>

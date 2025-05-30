@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body{
+background: #d7dbdd;
+font-size: 16px;
+margin: 0;
+padding:0;
+}
+h1{
+margin-left: 450px;
+margin-top: 60px;
+}	
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 10px 30px;
+}
+.navbar img {
+    height: 100px;
+    width: 100px;
+}
+h1 {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+}
+h1:hover{
+text-decoration: underline;
+}
+
+.navbar input[type="submit"] {
+    width: 150px;
+    height: 35px;
+    background: #1372bd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.navbar input[type="submit"]:hover {
+    background: #1a31dc;
+}
+
+label{
+display: inline-block;
+width: 100px;
+right: 20px;
+
+}
+
+.hello{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 90vh;
+}
+.main{
+border: 2px solid grey;
+background: white;
+border-radius: 5px;
+padding: 50px;
+}
+
+.main input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"]{
+padding: 5px;
+font-size: 16px;
+border-radius: 5px;
+width: 250px;
+}
+select{
+padding: 5px;
+font-size: 16px;
+border-radius: 5px;
+width: 260px;
+}
+input[type="submit"]{
+width: 300px;
+height: 35px;
+background: #37bd13;
+color:white;
+border:none;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+margin-left: 50px;
+}
+input[type="submit"]:hover{
+background: #1adc1a;
+}
+.footer{
+      background-color: white;
+      color: black;
+      padding-top: 5px;
+      margin-top: 5px;
+      text-align: center;
+      padding-bottom:5px ;
+      justify-content: center;
+}
+.f1{
+      font-size: 18px;
+}
+.f2{
+      font-size: 15px;
+      padding-top: 4px;
+}
+
+</style>
+<meta charset="UTF-8">
+<title>Acharya Nagarjuna University </title>
+      <link rel="icon" href="logo.png">
+</head>
+<body>
+	<nav>
+	<div class="navbar">
+	<img alt="logo" src="logo.png">
+	<h1>Acharya Nagarjuna University</h1>
+	<form action="index.html">
+	<input type="submit" value="Home">
+	</form>
+	</div>
+	</nav>
+	<div class="Demo">
+	<div class="hello">
+		<div class="main">
+		<form action="EmpRegister" method="post">
+			<h2>Create New Account</h2>
+			<label>Name: </label><input type="text" name="name" placeholder="Enter Your Name"><br><br>
+			<label>Mobile Number: </label><input type="number" name="number" placeholder="Enter Your Number"><br><br>
+			<label>Email: </label><input type="email" name="email" placeholder="Enter Your E-Mail"><br><br>
+			<label>Password: </label><input type="password" name="password" placeholder="Enter Your Password"><br><br>
+			<label>Date of Birth: </label><input type="date" name="dob" placeholder="date of birth"><br><br>
+			<label>Designation: </label>
+			<select name="des">
+				<option value="">Designation</option>
+				<option value="Assistant">Assistant Professor</option>
+				<option value="Associative">Associative Professor</option>
+				<option value="JL">Junior Lecturer</option>
+				<option value="SL">Senior Lecturer</option>
+				<option value="HoD">HoD</option>
+				<option value="Dean">Dean</option>
+				<option value="Lab">Lab Assistant</option>
+				<option value="Principal">Principal</option>
+				<option value="Others">Others</option>
+			</select><br><br>
+			<label>Address: </label>
+			<select name="address">
+				<option value="">Address</option>
+				<option value="Telangana">Telangana</option>
+				<option value="AP">Andhra Pradesh</option>
+				<option value="Bihar">Bihar</option>
+				<option value="MP">Madhya Pradesh</option>
+				<option value="Others">Others</option>
+			</select><br><br>
+			<input type="submit" value="Create New Account"><br><br>
+			</form>
+			<form action="Employee.html">
+			<input type="submit" value="Already have an Account">
+			</form>
+			</div>
+		</div>
+	</div>
+	
+<div class="footer">
+      <p class="f1">2025 Acharya Nagarjuna University. All Rights Reserved.</p>
+      <p class="f2">Contact: support@anu.edu | Phone: +91 1234567890</p>
+</div>
+</body>
+</html>
